@@ -1,0 +1,270 @@
+body {
+  min-width: 100%;
+}
+
+/* Hero */
+.hero {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  height: 500px;
+}
+
+.hero h1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Nav */
+.nav {
+    font-family: 'Raleway', sans-serif;
+    height: 70px;
+    min-width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #0093b5;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+}
+
+.nav li {
+    text-align: center;
+    color: white;
+}
+
+.right {
+    text-align: right;
+    float: right;
+    margin-right: -100px;
+    margin-top: -60px;
+    font-size: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+    position: relative;
+    padding: 23px 15px 20px 15px;
+}
+
+.nav a:hover {
+    background-color: #067d9e;
+}
+
+.nav .active {
+    background-color: #067d9e;
+    color: white;
+}
+
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    font-size: 1.4em;
+    margin-right: -4px;
+}
+
+.nav .right li {
+    display: inline-block;
+}
+
+.wb {
+    left: 5px;
+    display: inline-block;
+    margin: 17px 25px;
+    font-size: 25px;
+}
+
+.wb_li {
+    position: relative;
+    padding-top: -28px;
+}
+
+/* Mobile Nav */
+.mobile-container {
+    display: none;
+}
+
+.sidenav {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Side Push */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #067d9e;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav .active {
+  text-decoration: underline;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main, #main-nav {
+    transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Close Button (X) */
+
+.close-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.close-bar1, .close-bar2, .close-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .close-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .close-bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .close-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/* Media Q's */
+
+@media(max-width: 795px) {
+    .right {
+        margin-right: -18px;
+        margin-top: -47px;
+    }
+
+    .right li a {
+        display: none;
+    }
+
+    .mobile_icon {
+        display: inline-block;
+    }
+
+    .mobile-container {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1300px) {
+  .hero {
+    height: 350px;
+  }
+}
+
+@media (max-width: 935px) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 715px) {
+    .right {
+        margin-top: -92px;
+    }
+}
+
+@media (max-width: 650px) {
+  .hero {
+    height: 300px;
+	 background-image: url("../imgs/small_films.png");
+  }
+
+  .hero h1 {
+    padding-top: 2%;
+  }
+}
+
+@media(max-width: 577px) {
+    .right {
+        margin-top: -103px;
+    }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    padding-top: 3%;
+  }
+}
+
+@media(max-width: 355px) {
+    .right {
+        margin-top: -159px;
+    }
+}
+
+@media (max-width: 340px) {
+
+  .hero h1 {
+    padding-top: 13%;
+  }
+}

@@ -1,0 +1,30 @@
+.content iframe {
+  margin: 15px 0;
+}
+
+.hero {
+  background-image: url("../imgs/films.png");
+}
+
+.hero h1 {
+	font-size: 70px;
+  margin: 13% 0;
+}
+
+/* Media Q's */
+@media (max-width: 1300px) {
+  .hero {
+    background-position: center bottom;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    background-position: center 60%;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero {
+	 background-image: url("../imgs/small_films.png");
+  }

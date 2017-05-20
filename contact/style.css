@@ -1,0 +1,22 @@
+.form-button {
+  width: 30%;
+  background-color: #067d9e;
+  padding: 15px;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+textarea, input {
+  max-width: 100%;
+}
+
+input {
+  width: 540px;
+}
+
+@media (max-width: 759px) {
+  .form-button {
+    width: 49%;
+  }
+}

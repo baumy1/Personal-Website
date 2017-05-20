@@ -1,0 +1,71 @@
+/* TJ Was Here! */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-overflow-x-scrolling: hidden;
+  position: relative;
+  height: 100%;
+}
+
+
+/* General */
+
+h1 {
+  font-weight: normal;
+}
+
+.content {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 2%;
+  width: 900px;
+  margin: auto;
+  max-width: 95%;
+}
+
+.content p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.content h1 {
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+.content h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 10%;
+  background-color: #0093b5;
+  padding: 10px 25px;
+  border-radius: 15px;
+  text-align: center !important;
+  margin: auto !important;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #262525;
+  margin: 0;
+  padding: 25px 20px;
+  color: white;
+  font-size: 17px;
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+}
