@@ -5,26 +5,43 @@
 */
 nav {
     padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 nav h2 {
     color: white !important;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     font-size: 28px;
+    font-weight: bold;
+}
+
+nav .right ul li {
+    display: inline-block;
+    padding: 0 14px;
+}
+
+nav .right ul li a {
+    color: white;
+    font-size: 23px;
+}
+
+nav .right ul li a:hover {
+    text-decoration: none;
 }
 
 /*
 // Header
 */
-.header {  
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffc5e+2,ff7f68+41,ff4c4c+70,ff4c4c+70 */
-background: rgb(255,252,94); /* Old browsers */
-background: -moz-linear-gradient(45deg, rgba(255,252,94,1) 2%, rgba(255,127,104,1) 41%, rgba(255,76,76,1) 70%, rgba(255,76,76,1) 70%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, rgba(255,252,94,1) 2%,rgba(255,127,104,1) 41%,rgba(255,76,76,1) 70%,rgba(255,76,76,1) 70%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, rgba(255,252,94,1) 2%,rgba(255,127,104,1) 41%,rgba(255,76,76,1) 70%,rgba(255,76,76,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffc5e', endColorstr='#ff4c4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+.header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4ec0e0+2,004f66+100 */
+background: #4ec0e0; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #4ec0e0 2%, #004f66 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #4ec0e0 2%,#004f66 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #4ec0e0 2%,#004f66 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0e0', endColorstr='#004f66',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
 
 .header .uk-container {
     padding: 180px;
