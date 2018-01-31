@@ -15,7 +15,7 @@
     </head>
     <body>
 
-        <nav class="uk-navbar-container uk-navbar-transparent uk-position-top" uk-navbar >
+        <nav class="uk-navbar-container uk-navbar-transparent uk-position-top uk-sticky" uk-navbar >
             <div class="uk-navbar-left">
                 <h2>WILLIAM BAUM</h2>
             </div>
@@ -40,10 +40,24 @@
         <!-- Header -->
         <div class="header">
             <div class="uk-container">
-                    <h1>Hi I'm Will and I'm a...</h1>
+                    <h1>Hi I'm Will and I'm a <br><span id="content"></span><span id="carrot" style="opacity: 0">|</span></h1>
             </div>
         </div>
 
+        <div class="uk-container main">
+            <div class="uk-column-divider uk-child-width-expand@s" uk-grid>
+                <div class="center">
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="center">
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <script src="js/typing.js"></script>
         <!-- Include UI Kit Js -->
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
