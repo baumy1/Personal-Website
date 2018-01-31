@@ -15,14 +15,75 @@ nav h2 {
     font-weight: bold;
 }
 
+nav .right ul li {
+    display: inline-block;
+    padding: 0 14px;
+}
+
 nav .right ul li a {
     color: white;
     font-size: 23px;
+    position: relative;
+    transition: all 2s;
+    padding: 0 6px 6px 3px;
+}
+
+nav .right ul li a,
+nav .right ul li a:after,
+nav .right ul li a:before {
+  transition: all .5s;
 }
 
 nav .right ul li a:hover {
     text-decoration: none;
 }
+
+nav .right ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    height: 3px;
+  }
+  
+nav .right ul li a:hover:after {
+    width: 100%;
+}
+  
+nav .right ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+  
+nav .right ul li a:hover {
+    color: #fff;
+    z-index: 1;
+}
+  
+nav .right ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
 /*
 // Header
 */
